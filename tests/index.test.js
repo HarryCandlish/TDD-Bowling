@@ -11,6 +11,13 @@ test('score a gutterball frame', function (){
     expect(actual).toBe(expected)
 })
 
+test('score a normal frame', function (){
+    const frame = [2,3]
+    const expected = [5]
+    const actual = game.scoreFrame(frame)
+    expect(actual).toBe(expected)
+})
+
 
   
 

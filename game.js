@@ -1,9 +1,15 @@
 module.exports = {
     scoreFrame: scoreFrame,
+    totalScore: totalScore
+
 }
 
 
 function scoreFrame (frame) {
-    return 0
+    let frameTotal = frame[2] +[3]
+     return
 }
 
+function totalScore () {
+    return 0
+}
