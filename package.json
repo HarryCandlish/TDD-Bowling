@@ -6,9 +6,7 @@
   "scripts": {
     "test": "jest --watch --noStackTrace"
   },
-  "author": "Don Smith <don@devacademy.co.nz>",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^23.6.0"
+  "dependencies": {
+    "jest": "^24.8.0"
   }
 }
